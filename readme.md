@@ -1,1 +1,1 @@
-# Using Long Short Term Memory Networks (LSTM) Evaluated to Pollution Beinjing, China.
+# Using Long Short Term Memory Networks (LSTM) to Evaluated the Pollution of Beinjing, China.
