@@ -1,5 +1,6 @@
 # Using Long Short Term Memory Networks (LSTM) to Evaluate the Pollution of Beijing, China.
 
+*Note*: this repository still in development.
 
 #
 
