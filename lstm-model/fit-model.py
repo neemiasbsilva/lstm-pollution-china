@@ -12,3 +12,6 @@ n_train_hours = 365 * 24
 train = values[:n_train_hours,:]
 test = values[n_train_hours:, :]
 
+# split into input variables and output variables
+x_train, y_train = train[:,:-1], train[:, -1]
+x_test, x_test = test[:, :-1], test[:,-1]
