@@ -19,3 +19,4 @@ x_test, x_test = test[:, :-1], test[:,-1]
 # reshape input to be 3D [samples, timesteps, features]
 x_train = x_train.reshape((x_train.shape[0], 1, x_train.shape[1]))
 x_test = x_test.reshape((x_test.shape[0], 1, x_test.shape[1]))
+
