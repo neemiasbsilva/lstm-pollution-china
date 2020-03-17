@@ -2,6 +2,17 @@ import numpy as np
 import pandas as pd
 from model import get_train_model
 from sklearn.model_selection import train_test_split
+import argparse
+import os
+
+parser = argparse.ArgumentParser(description="Using LSTM to predict the pollution of china")
+
+parser.add_argument("-path_dataset", action="store", required=True, help="The dataset of the pollution china", dest="path_dataset")
+parser.add_argument("-experiment_name", action="store", required=True, help="Folder to save the experiment", dest="experiment_name")
+
+
+
+
 # load the dataset
 dataset = pd.read_csv("../pollution.csv", header=0, index_col=0)
 
