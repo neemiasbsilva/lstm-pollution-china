@@ -10,7 +10,10 @@ parser = argparse.ArgumentParser(description="Using LSTM to predict the pollutio
 parser.add_argument("-path_dataset", action="store", required=True, help="The dataset of the pollution china", dest="path_dataset")
 parser.add_argument("-experiment_name", action="store", required=True, help="Folder to save the experiment", dest="experiment_name")
 
+arguments = parser.parse_args()
 
+path_dataset = arguments.path_dataset
+experiment_name = arguments.experiment_name
 
 
 # load the dataset
