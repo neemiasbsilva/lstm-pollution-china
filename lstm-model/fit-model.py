@@ -17,7 +17,7 @@ experiment_name = arguments.experiment_name
 
 
 # load the dataset
-dataset = pd.read_csv("../pollution.csv", header=0, index_col=0)
+dataset = pd.read_csv(path_dataset, header=0, index_col=0)
 
 # split into train and test
 values = dataset.values
