@@ -1,5 +1,5 @@
 from keras.models import Sequential
-from keras.layes import Dense, LSTM
+from keras.layers import Dense, LSTM
 
 def get_train_model(x_train):
 
