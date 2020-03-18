@@ -44,3 +44,7 @@ x_test, x_val, y_test, y_val = train_test_split(x_test, y_test, test_size=0.5, r
 model.fit(x_train, y_train, epochs=100, batch_size=512, validation_data=(x_val, y_val), verbose=2, shuffle=False)
 
 model.save(os.path.join(experiment_name, "model.h5"))
+
+# save the dataset transformed
+np.savez_compressed("dataset", x_train=x_train, y_train=y_train,
+                x_test=x_test, y_test=y_test)
