@@ -29,7 +29,7 @@ test = values[n_train_hours:, :]
 
 # split into input variables and output variables
 x_train, y_train = train[:,:-1], train[:, -1]
-x_test, x_test = test[:, :-1], test[:,-1]
+x_test, y_test = test[:, :-1], test[:,-1]
 
 # reshape input to be 3D [samples, timesteps, features]
 x_train = x_train.reshape((x_train.shape[0], 1, x_train.shape[1]))
