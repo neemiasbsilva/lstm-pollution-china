@@ -30,7 +30,7 @@ All recurrent neural networks have the form of a chain of repeating modules of n
   ```
     $ pip install keras
   ```
-  * Matplotlib (macOs)
+  * Matplotlib
   ```
     $ python -m pip install -U matplotlib
   ```
