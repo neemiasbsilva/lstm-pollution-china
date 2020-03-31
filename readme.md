@@ -10,6 +10,8 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 <p aling="center"><img src="http://elgibborsms.com/blog/wp-content/uploads/2017/12/introduction-to-long-short-term-memory.png" width="85%" height="85%"></p> 
 <h6 align="center">The repeating module in an LSTM containg four interacting layers.</h6>
 
+To know more about lstm neural networks, please [click here](http://elgibborsms.com/blog/introduction-to-long-short-term-memory/).
+
 1. Intall the following packages.
   ```
 
