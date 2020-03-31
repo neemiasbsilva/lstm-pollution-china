@@ -24,9 +24,12 @@ All recurrent neural networks have the form of a chain of repeating modules of n
   ```
   * TensorFlow
   ```
-    & pip install tensorflow
+    $ pip install tensorflow
   ```
-
+  * Keras
+  ```
+    $ pip install keras
+  ```
 ## Result  
 <p align="center"><img src="plot.png" width="85%" height="85%"></p>
 <h6 align="center">History of the model
