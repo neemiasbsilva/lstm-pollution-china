@@ -18,11 +18,11 @@ All recurrent neural networks have the form of a chain of repeating modules of n
   ```
    python3 -m pip install --user virtualenv
   ```
-  * Sklearn.
+  * Sklearn 0.22.2.
+  ```
+    pip install -U scikit-learn
   ```
   
-  ```
-
 
 ## Result  
 <p align="center"><img src="plot.png" width="85%" height="85%"></p>
