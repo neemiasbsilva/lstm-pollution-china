@@ -16,13 +16,16 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 - Install the following packages on macOS or Linux.
   * Create of virtual environments (venv) in macOS or Linux.
   ```
-   python3 -m pip install --user virtualenv
+   $ python3 -m pip install --user virtualenv
   ```
   * Sklearn 0.22.2.
   ```
-    pip install -U scikit-learn
+    $ pip install -U scikit-learn
   ```
-  
+  * TensorFlow
+  ```
+    & pip install tensorflow
+  ```
 
 ## Result  
 <p align="center"><img src="plot.png" width="85%" height="85%"></p>
