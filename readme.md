@@ -1,5 +1,6 @@
 # Using Long Short Term Memory Networks (LSTM) to Evaluate the Pollution of Beijing, China.
 
+[![Build Status](https://travis-ci.org/keras-team/keras.svg?branch=master)](https://travis-ci.org/keras-team/keras) [![Documentation](https://img.shields.io/badge/api-reference-blue.svg)](https://www.tensorflow.org/api_docs/)
 
 ## About LSTM
 
