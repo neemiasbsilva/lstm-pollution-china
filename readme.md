@@ -55,6 +55,14 @@ Bellow, follow some of packages you have to be install for run this experiment:
   python -m pip install -U matplotlib
 ```
 
+### Run the Experiment
+
+After the instalations, you can run now the experiment type the following command in your terminal:
+
+```
+  sh run.sh
+```
+
 ## Result  
 <p align="center"><img src="plot.png" width="85%" height="85%"></p>
 <h6 align="center">History of the model
