@@ -64,9 +64,11 @@ After the instalations, you can run now the experiment type the following comman
 ```
 
 ## Result  
-<p align="center"><img src="plot.png" width="85%" height="85%"></p>
-<h6 align="center">History of the model
 
+Bellow, follow the train process history used for build the model and also for verify the overfitting.
+
+<p align="center"><img src="plot.png" width="65%" height="65%"></p> 
+<h6 align="center">History evaluation for see if are overfitting during the training process or no. In this figure was used mean squared error (MSE) as metric of the loss (y-axis). The x-axis are the number of epochs that used for train the model.</h6>
 
 #
 
