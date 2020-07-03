@@ -14,27 +14,47 @@ All recurrent neural networks have the form of a chain of repeating modules of n
 
 ## Getting Started
 
-- Install the following packages on macOS or Linux.
-  * Create of virtual environments (venv) in macOS or Linux.
-  ```
-   $ python3 -m pip install --user virtualenv
-  ```
-  * Sklearn 0.22.2.
-  ```
-    $ pip install -U scikit-learn
-  ```
-  * TensorFlow
-  ```
-    $ pip install tensorflow
-  ```
-  * Keras
-  ```
-    $ pip install keras
-  ```
-  * Matplotlib
-  ```
-    $ python -m pip install -U matplotlib
-  ```
+### Prerequisites
+
+Before you install the packages, it's necessaryly some knowledgmentes:
+
+```
+  Have a good knowledgment of Deep Learning, specialy of LSTM layer, and very nice knowledgment of python too.
+```
+
+### Install
+
+Bellow, follow some of packages you have to be install for run this experiment:
+
+- The first step is create run virtual environment (this step is optional, but I recommend):
+```
+  python3 -m pip install --user virtualenv
+  source .virtualenv/bin/activate
+```
+
+- The second step is install Sklearn 
+```
+  pip install -U scikit-learn
+```
+
+- After install Sklearno, you need to install TensorFlow:
+
+```
+  pip install tensorflow
+```
+
+- When TensorFlow installation has finished, please install the Keras library:
+
+```
+  pip install keras
+```
+
+- And the last library was MatPlotLib for you plot some graphics to analisy the results:
+
+```
+  python -m pip install -U matplotlib
+```
+
 ## Result  
 <p align="center"><img src="plot.png" width="85%" height="85%"></p>
 <h6 align="center">History of the model
