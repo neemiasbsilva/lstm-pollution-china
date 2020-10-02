@@ -8,7 +8,7 @@ LSTM are a special kind of Recurrent Neural Network, capable of learning long-te
 
 All recurrent neural networks have the form of a chain of repeating modules of neural network. LSTM also have this chain like structure, bellow follow the module in an LSTM.
 
-<p aling="center"><img src="lstm_cell.png" width="85%" height="85%"></p> 
+<p aling="center"><img src="lstm_cell.png" width="55%" height="55%"></p> 
 <h6 align="center">The repeating module in an LSTM containg four interacting layers. To know more about lstm neural networks, please <a href="http://elgibborsms.com/blog/introduction-to-long-short-term-memory/">click here</a>.</h6>
 
 
